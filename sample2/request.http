@@ -1,0 +1,25 @@
+### variables
+@email = "user1@example.com"
+@password = "user1user1"
+
+###
+# @name loginAPI
+
+POST http://localhost:3000/api/login
+content-type: application/json
+
+{
+    "email": {{email}},
+    "password": {{password}}
+}
+
+###
+@token = {{loginAPI.response.body.$.token}}
+
+
+###
+
+# @name getUsers
+GET http://localhost:3000/api/users
+content-type: application/json
+Authorization: {{token}}
