@@ -21,6 +21,8 @@ ctrl + shift + p    or  f1
 
 # move line
 alt + donw/up
+
+# multi cursor
 ctrl + alt + down/up
 
 # insert line at
@@ -41,14 +43,6 @@ ctrl + f/h
 # all serach
 ctrl + shift + f
 
-# toggle explore/editor
-ctrl + shift + e
-
-# show markdow preview
-ctrl + k -> v
-
-# toggle zen mode
-ctrl + k -> z
 
 ```
 
@@ -56,13 +50,16 @@ ctrl + k -> z
 
 ```
 
+# 閉じタグの連動
 Auto Rename Tag
 
+# 色、ヘッダ、カラム名
 Rainbow CSV
 
+# 自動整形
 Prettier
 
-# todo
+# todo管理
 Todo Tree
 TODO Highlight
 
@@ -71,7 +68,7 @@ REST Client
 
 # 見栄えがいい感じに
 vscode-icons
-*theme
+***theme
 
 # web server + hot reloat
 Live Server
@@ -87,6 +84,8 @@ Japanese Language Pack
 Extension Pack for Java
 Azure Tools
 Live Share
+SQLTools / Redis
+
 
 
 ```

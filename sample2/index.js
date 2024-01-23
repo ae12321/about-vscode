@@ -5,8 +5,6 @@ const app = express();
 const port = 3000;
 const serverSecret = "my-secret!";
 
-const a
-
 // parse request body json to JavaScript Object
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

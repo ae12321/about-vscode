@@ -14,7 +14,8 @@ content-type: application/json
 }
 
 ###
-@token = {{loginAPI.response.body.$.token}}
+@token = "asdfasdf"
+# @token = {{loginAPI.response.body.$.token}}
 
 
 ###
